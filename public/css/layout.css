@@ -30,7 +30,7 @@ body { background: #0f0f0f; }
 
 header {
    position: relative;
-   height: 800px;
+   height: 100px;
    min-height: 500px;
    width: 100%;
    
@@ -1007,11 +1007,13 @@ footer .social-links li:first-child { margin-left: 0; }
 
 
 .social .btn:first-child{
-   margin-right: 30px;
+   /* margin-right: 30px; */
 }
 .social .btn{
    padding-left: 30px;
-   padding-right: 30px; 
+   padding-right: 30px;
+   margin-right: 30px;
+   border-radius: 2px; 
 }
 .social .btn i{
    margin-right: 15px;
@@ -1021,4 +1023,7 @@ footer .social-links li:first-child { margin-left: 0; }
 }
 .github-btn{
    background-color: #34495e !important;
+}
+.linkedin-btn{
+   background-color: #0d5196 !important;
 }

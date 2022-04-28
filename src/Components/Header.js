@@ -8,12 +8,13 @@ class Header extends Component {
 
     const project = this.props.data.project;
     const github = this.props.data.github;
+    const linkedin = this.props.data.linkedin;
     const name = this.props.data.name;
     const description = this.props.data.description;
 
     return (
       <header id="home">
-        <ParticlesBg type="circle" bg={true} />
+        <ParticlesBg num='.4' type='list' bg={true} />
 
         <nav id="nav-wrap">
           <a className="mobile-btn" href="#nav-wrap" title="Show navigation">
@@ -72,6 +73,9 @@ class Header extends Component {
                 </a>
                 <a href={github} className="button btn github-btn">
                   <i className="fa fa-github"></i>Github
+                </a>
+                <a href={linkedin} className="button btn linkedin-btn">
+                  <i className="fa fa-linkedin"></i> linkedin
                 </a>
               </ul>
             </Fade>

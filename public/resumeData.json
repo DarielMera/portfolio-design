@@ -1,183 +1,124 @@
 {
   "main": {
     "name":"Dariel Mera",
-    "description":"FullStack Software Engineer",
-    "image":"profilepic.jpg",
-    "bio":"B.S in MIS, FullStack Software Engineer",
-    "contactmessage":"Here is where you should write your message to readers to have them get in contact with you.",
+    "description":"Jr FullStack Software Engineer #Open to Work",
+    "image":"profilepic.png",
+
+    "bio": "I am very fortunate to have worked in so many different fields. From Banks to the Hospitality Industry. However, I have concluded that coding is my true passion. I love to think and that great intrigue and satisfaction of looking for solutions to problems. \n After refining my education by completing an updated Software Engineering Career Course at Boca Code, I seek never to work again in my life (as they say out there) since I will dedicate myself to what I am really passionate about, coding.",
+
+    "contactmessage":"Please Contact me",
     "email": "daridariel@gmail.com",
     "phone": "954-793-7173",
-    "github":"https://https://github.com/DarielMera",
-    "project":"https://github.com/nordicgiant2/react-nice-resume",
+    "project":"",
+    "github":"https://github.com/DarielMera",
+    "linkedin": "https://linkedin.com/in/dariel-mera-b6454057",
     "address":{
-      "street":"(Your Street)",
-      "city":"(Your City)",
-      "state":"(Your State)",
-      "zip": "(Your Zip/Postal Code)"
+      "street":"(5186 NE 6th Ave)",
+      "city":"(Oakland Park)",
+      "state":"(FL)",
+      "zip": "(33334)"
     },
-    "website": "http://www.timbakerdev.com",
-    "resumedownload":"http://timbakerdev.com",
-    "social":[
+    "website": "",
+    "resumedownload":"https://drive.google.com/file/d/1MlIzgc85FrZugo7MqBHrscuSIOHCM0GD/view?usp=sharing",
+    "social": [
       {
-        "name":"facebook",
-        "url":"https://github.com/nordicgiant2/react-nice-resume",
-        "className":"fa fa-facebook"
+        "name":"bocacode",
+        "url":"https://bocacode.com/candidates/software-engineer/dariel-mera",
+        "image":"bc-logo.png"
       },
       {
-        "name":"twitter",
-        "url":"http://twitter.com",
-        "className":"fa fa-twitter"
-      },
-      {
-        "name":"linkedin",
-        "url":"https://www.linkedin.com/in/tim-baker-8420009a/",
-        "className":"fa fa-linkedin"
-      },
-      {
-        "name":"instagram",
-        "url":"http://instagram.com/tbaker_x",
-        "className":"fa fa-instagram"
-      },
-      {
-        "name":"github",
-        "url":"https://github.com/nordicgiant2/react-nice-resume",
-        "className":"fa fa-github"
+        "name":"techhub",
+        "url":"https://techhubsouthflorida.org/hack-for-inclusion-event/?utm_source=TECH+HUB+SOUTH+FLORIDA&utm_campaign=1a713feb7d-Newsletter_6_NEW9_4_2015_COPY_01&utm_medium=email&utm_term=0_b713bd7972-1a713feb7d-158993226&mc_cid=1a713feb7d&mc_eid=f81c203332",
+        "image":"techub-logo.png"
       }
-    ]
+        ]
   },
   "resume":{
-    "skillmessage":"Here you can create a short write-up of your skills to show off to employers",
+    "skillmessage":"",
     "education":[
       {
-        "school":"University?",
-        "degree":"B.S in Management Information Systems",
-        "graduated":" ",
-        "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
+        "school":"Boca Code",
+        "degree":"Software Engineer Career Course",
+        "graduated":"December 2021",
+        "description":""
       },
       {
-        "school":"School #1 Maybe College?",
-        "degree":"What did you study 101",
-        "graduated":"March 2013",
-        "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
+        "school":"S.U.N.Y College At Old Westbury",
+        "degree":"B.S in Management Information Systems",
+        "graduated":"2003",
+        "description":""
       }
     ],
     "work":[
       {
-        "company":"Awesome Design Studio",
-        "title":"Senior UX God ",
-        "years":"March 2018 - Present",
-        "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+        "company":"321 Waters Edge Condominium - FL",
+        "title":"Concierge ",
+        "years":"October 2017 - September 2021",
+        "description":""
       },
       {
-        "company":"Super Cool Studio",
-        "title":"Junior bug fixer",
-        "years":"March 2017 - February 2018",
-        "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+        "company":"Riverside Hotel - FL",
+        "title":"Hospitality Ambassador",
+        "years":"September 2010 - April 2016",
+        "description":""
+      },
+      {
+        "company":"McLaughlin Research Corp - RI",
+        "title":"Technical Analyst",
+        "years":"January 2008 -  January 2009",
+        "description":""
+      },
+      {
+        "company":"North Fork Bank - NY",
+        "title":"Bank Teller",
+        "years":"February 2006 -  January 2007",
+        "description":""
+      },
+      {
+        "company":"Uniped - NY",
+        "title":"Administrative Assistant",
+        "years":"January 2003 - January 2006",
+        "description":""
       }
     ],
     "skills":[
-      {
-        "name":"Python",
-        "level":"60%"
-      },
-      {
-        "name":"VueJs",
-        "level":"55%"
-      },
-      {
-        "name":"ReactJs",
-        "level":"50%"
-      },
-      {
-        "name":"CSS",
-        "level":"90%"
-      },
-      {
-        "name":"PHP",
-        "level":"80%"
-      },
-      {
-        "name":"Swift",
-        "level":"50%"
-      },
-      {
-        "name":"JAVA",
-        "level":"80%"
-      }
+      
+        {
+          "name":"JavaScript",
+          "level":"63%"
+        },
+        {
+          "name":"ReactJs",
+          "level":"60%"
+        },
+        {
+          "name":"CSS",
+          "level":"70%"
+        },        
+        {
+          "name":"HTML",
+          "level":"70%"
+        },        
+        {
+          "name":"Python",
+          "level":"10%"
+        },
+        {
+          "name":"c#",
+          "level":"10%"
+        },
+        {
+          "name":"MatLab",
+          "level":"10%"
+        }
     ]
   },
   "portfolio":{
     "projects": [
       {
-        "title":"Canadian Wanderlust",
-        "category":"My Travel Blog for my post-university travels",
-        "image":"01.jpg",
-        "url":"https://www.canadianwanderlust.com"
-      },
-      {
-        "title":"Fury Fighting Gear",
-        "category":"(offline now) A fighting gear company I started",
-        "image":"02.jpg",
-        "url":"http://www.timbakerdev.com"
-      },
-      {
-        "title":"Original Thai Food",
-        "category":"Website I built for a restaurant I like in Thailand",
-        "image":"03.jpg",
-        "url":"http://www.timbakerdev.com/originalthaifood.github.io"
-      },
-      {
-        "title":"Resume Website",
-        "category":"A React based resume website template",
-        "image":"04.jpg",
-        "url":"http://www.timbakerdev.com"
-      },
-      {
-        "title":"Smirkspace",
-        "category":"(MVP Only) A React and Meteor based chat University project.",
-        "image":"05.jpg",
-        "url":"http://www.smirkspace.com"
-      },
-      {
-        "title":"Canadian Wanderlust",
-        "category":"My Travel Blog for my post-university travels",
-        "image":"06.jpg",
-        "url":"https://www.canadianwanderlust.com"
-      },
-      {
-        "title":"Fury Fighting Gear",
-        "category":"(offline now) A fighting gear company I started",
-        "image":"01.jpg",
-        "url":"http://www.timbakerdev.com"
-      },
-      {
-        "title":"Original Thai Food",
-        "category":"Website I built for a restaurant I like in Thailand",
-        "image":"02.jpg",
-        "url":"http://www.timbakerdev.com/originalthaifood.github.io"
-      },
-      {
-        "title":"Original Thai Food",
-        "category":"Website I built for a restaurant I like in Thailand",
-        "image":"03.jpg",
-        "url":"http://www.timbakerdev.com/originalthaifood.github.io"
-      },
-      {
-        "title":"Resume Website",
-        "category":"A React based resume website template",
-        "image":"04.jpg",
-        "url":"http://www.timbakerdev.com"
-      },
-      {
-        "title":"Smirkspace",
-        "category":"(MVP Only) A React and Meteor based chat University project.",
-        "image":"05.jpg",
-        "url":"http://www.smirkspace.com"
-      },
-      {
-        "title":"Canadian Wanderlust",
-        "category":"My Travel Blog for my post-university travels",
-        "image":"06.jpg",
+        "title":"Impeccable Photoshoot",
+        "category":"",
+        "image":"01.png",
         "url":"https://www.canadianwanderlust.com"
       }
     ]

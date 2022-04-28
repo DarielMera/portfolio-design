@@ -6,10 +6,11 @@ class Footer extends Component {
     if (!this.props.data) return null;
 
     const networks = this.props.data.social.map(function (network) {
+      let networkImage = "images/network/" + network.image;
       return (
         <li key={network.name}>
           <a href={network.url}>
-            <i className={network.className}></i>
+            <img width='50px' height='50px' alt="network logos" src={networkImage} />
           </a>
         </li>
       );
@@ -23,7 +24,7 @@ class Footer extends Component {
               <ul className="social-links">{networks}</ul>
 
               <ul className="copyright">
-                <li>&copy; Copyright 2021 Nordic Giant</li>
+                <li></li>
                 <li>
                   Design by{" "}
                   <a title="Styleshout" href="http://www.styleshout.com/">
