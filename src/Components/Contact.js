@@ -4,7 +4,7 @@ import emailjs from '@emailjs/browser';
 import {useRef} from 'react'
 
 
- function ContactForm() {
+function ContactForm() {
 const form = useRef()
 
   function sendEmail(e) {
@@ -109,10 +109,12 @@ class Contact extends Component {
     const state = this.props.data.address.state;
     const zip = this.props.data.address.zip;
     const phone = this.props.data.phone;
-    const message = this.props.data.contactmessage;    
+    const message = this.props.data.contactmessage;
+    const email = this.props.data.email;
+    
 
     return (
-      <section id="contact">
+      <section id="contact" >
         <Fade bottom duration={1000}>
           <div className="row section-head">
             <div className="two columns header-col">
@@ -126,8 +128,8 @@ class Contact extends Component {
             </div>
           </div>
         </Fade>
+        <div className="row" style={{display: 'flex'}}>
         <ContactForm />
-        <div className="row">
           <Slide right duration={1000}>
             <aside className="four columns footer-widgets">
               <div className="widget widget_contact">
@@ -139,6 +141,9 @@ class Contact extends Component {
                   {city}, {state} {zip}
                   <br />
                   <span>{phone}</span>
+                  <br />
+                  <span>{email}</span>
+                
                 </p>
               </div>
             </aside>

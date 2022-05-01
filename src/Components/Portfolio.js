@@ -13,8 +13,10 @@ class Portfolio extends Component {
 			return (
 				<div key={id++} className="columns portfolio-item">
 					<div className="item-wrap">
+						<a href="https://impeshoot.web.app/"> 
 						<Zmage alt={projects.title} src={projectImage} />
 						<div style={{ textAlign: "center" }}>{projects.title}</div>
+						</a>
 					</div>
 							</div>
 
@@ -32,13 +34,14 @@ class Portfolio extends Component {
 									{projects}
 								<iframe
                   style={{marginLeft: '30px', borderRadius: '2px'}}
-									width="400"
-									height="215"
+									width="400px"
+									height="215px"
 									src="https://www.youtube.com/embed/3GwBpXjyt1c?start=24"
 									title="YouTube video player"
 									frameborder="0"
 									allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-									allowfullscreen>
+									allowfullscreen='true'
+									>
                     </iframe>
                 {/* </div> */}
 								</div>
